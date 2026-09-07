@@ -1,4 +1,4 @@
-//example 2
+//Exercise 2
 Console.Write("Enter your string:");
 string str = Console.ReadLine();
 Console.WriteLine("Original Name : " + str);
@@ -7,10 +7,11 @@ Console.WriteLine("Lowercase : " + str.ToLower());
 Console.WriteLine("Length : " + str.Length);
 Console.WriteLine("Trimmed Name : " + str.Trim());
 
-// example 3
+
+
+// Exercise 3
 Console.Write("Enter your email : ");
 string email = Console.ReadLine();
-
 if (email.EndsWith("@gmail.com"))
 {
     Console.WriteLine("Valid Gmail");
@@ -20,7 +21,9 @@ else
     Console.WriteLine("Invalid Gmail");
 }
 
-//example 4
+
+
+//Exercise 4
 string[] names = new string[5];
 for (int i = 0; i < names.Length; i++)
 {
